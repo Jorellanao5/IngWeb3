@@ -1,0 +1,37 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+    <ion-header-bar class="bar-stable">
+      <h1 class="title">Multimedia Inc</h1>
+    </ion-header-bar>
+    <ion-content>
+      <ion-list>
+        <ion-item menu-close href="#/app/login" class="button icon-left ion-home">
+          Inicio
+        </ion-item>
+        <br>
+        <ion-item menu-close href="#/app/search" class="button icon-left ion-person">
+          Cantantes
+        </ion-item>
+        <ion-item menu-close href="#/app/browse" class="button icon-left ion-star">
+          Favoritos
+        </ion-item>
+        <ion-item menu-close href="#/app/playlists" class="button icon-left ion-navicon">
+          Playlists
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
