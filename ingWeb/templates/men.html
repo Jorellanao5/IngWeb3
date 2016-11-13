@@ -1,0 +1,35 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button></ion-nav-back-button>
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="side-menu21"></ion-nav-view>
+  </ion-side-menu-content>
+  <ion-side-menu side="left" id="side-menu21">
+    <ion-header-bar class="bar-stable">
+      <div class="title">Menú</div>
+    </ion-header-bar>
+    <ion-content padding="false" class="side-menu-left has-header ">
+      <ion-list id="men-list1">
+        <ion-item class="item-icon-right" id="men-list-item1" ui-sref="men.inicio" menu-close="">Inicio
+          <i class="icon ion-android-home"></i>
+        </ion-item>
+        <ion-item class="item-icon-right" id="men-list-item2" ui-sref="men.gNeros" menu-close="">Géneros
+          <i class="icon ion-android-clipboard"></i>
+        </ion-item>
+        <ion-item class="item-icon-right" id="men-list-item3" ui-sref="men.favoritos" menu-close="">Favoritos
+          <i class="icon ion-star"></i>
+        </ion-item>
+        <ion-item class="item-icon-right" id="men-list-item6" ui-sref="men.cantante" menu-close="">Cantante
+          <i class="icon ion-android-microphone"></i>
+        </ion-item>
+        <ion-item class="item-icon-right" id="men-list-item4" ui-sref="men.crDitos" menu-close="">Créditos
+          <i class="icon ion-android-contacts"></i>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
